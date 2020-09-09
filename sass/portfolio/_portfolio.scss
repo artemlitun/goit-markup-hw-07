@@ -1,0 +1,35 @@
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  & .portfolio-item {
+    width: 370px;
+    margin: 15px;
+  }
+  & img {
+    display: block;
+  }
+}
+
+.portfolio-title {
+  margin: 0;
+  padding: 20px 24px 0;
+
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  margin: 0;
+  margin-top: 4px;
+  padding: 0 24px 20px;
+
+  color: $accent-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}

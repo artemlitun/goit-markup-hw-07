@@ -1,0 +1,29 @@
+.features-items {
+  display: flex;
+  padding-top: 94px;
+  & .item + .item {
+    margin-left: 30px;
+  }
+
+  & .item {
+    width: 270px;
+  }
+}
+
+.features-subtitle {
+  margin-top: 55px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $accent-text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
