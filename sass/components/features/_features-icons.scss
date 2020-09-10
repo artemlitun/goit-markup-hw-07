@@ -1,4 +1,4 @@
-.features-icons-container {
+.features__block-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
   height: 120px;
   background-color: $secondary-bg-color;
 
-  & svg {
+  &-svg {
     width: 70px;
     height: 70px;
   }

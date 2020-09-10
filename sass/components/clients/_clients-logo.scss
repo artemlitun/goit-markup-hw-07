@@ -1,4 +1,4 @@
-.clients-logo-link {
+.clients__block-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +21,7 @@
   }
 }
 
-.clients-logo-link svg {
+.clients__block-link-svg {
+  fill: #afb1b8;
   transition: fill;
 }

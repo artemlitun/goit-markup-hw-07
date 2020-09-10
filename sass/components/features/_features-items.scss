@@ -1,16 +1,16 @@
-.features-items {
+.features__block {
   display: flex;
   padding-top: 94px;
-  & .item + .item {
+  & .features__block-item + .features__block-item {
     margin-left: 30px;
   }
 
-  & .item {
+  & .features__block-item {
     width: 270px;
   }
 }
 
-.features-subtitle {
+.features__block-subtitle {
   margin-top: 55px;
   margin-bottom: 10px;
   font-weight: 700;
@@ -19,7 +19,7 @@
   text-transform: uppercase;
 }
 
-.features-text {
+.features__block-text {
   margin-top: 0;
   margin-bottom: 0;
   color: $accent-text-color;
