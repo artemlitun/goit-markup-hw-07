@@ -20,11 +20,13 @@
 .menu__link::after {
   display: block;
   position: absolute;
+  left: 0;
+  right: 0;
 
   content: "";
   bottom: 0;
   right: 0;
-  width: -webkit-fill-available;
+
   height: 4px;
   background-color: $accent-color;
   border-radius: 2px;
