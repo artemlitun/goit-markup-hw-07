@@ -1,7 +1,7 @@
-.modal {
+.hero__modal {
   position: relative;
   width: 528px;
-  /* height: 581px; */
+  height: 581px;
 
   top: 50%;
   left: 50%;
@@ -15,19 +15,26 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.closed-btn {
+.hero__modal-closed-btn {
   display: flex;
   justify-content: center;
   align-items: center;
+
   position: absolute;
+  top: 8px;
+  right: 8px;
+
   padding: 6px;
   width: 30px;
   height: 30px;
-  top: 8px;
-  right: 8px;
 
   background: $primary-bg-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  &:hover,
+  &:hover {
+    fill: $accent-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

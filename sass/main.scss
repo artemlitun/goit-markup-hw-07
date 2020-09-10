@@ -16,18 +16,22 @@
 
 @import "./components/footer/footer";
 @import "./components/footer/footer-logo";
-
-// @import "./components/footer/footer-section";
 @import "./components/footer/footer-address";
 @import "./components/footer/footer-social";
-// @import "./components/footer/footer-social-svg";
-// @import "./components/footer/footer-form";
+@import "./components/footer/footer-form";
 
-// @import "./components/hero-section/content";
-// @import "./components/hero-section/modal";
-// @import "./components/hero-section/backdrop";
-// @import "./components/hero-section/form";
-// @import "./components/hero-section/checkbox";
+@import "./components/hero/content";
+@import "./components/hero/backdrop";
+@import "./components/hero/modal";
+
+@import "./components/hero/form/form";
+@import "./components/hero/form/form__field";
+@import "./components/hero/form/form__field-input";
+@import "./components/hero/form/form__field-textarea";
+@import "./components/hero/form/form__field-comment";
+@import "./components/hero/form/form__field-policy";
+@import "./components/hero/form/form__field-svg";
+
 // @import "./components/hero-section/button";
 
 // @import "./components/features-section/features-items";

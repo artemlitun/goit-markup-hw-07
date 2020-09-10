@@ -16,7 +16,7 @@
     opacity: 0;
     pointer-events: none;
   }
-  &.is-hidden .modal {
+  &.is-hidden .hero__modal {
     transform: translate(-50%, -50%) scale(1.1);
   }
 }
